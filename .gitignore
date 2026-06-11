@@ -1,0 +1,37 @@
+# Xcode
+#
+# Reference: https://github.com/github/gitignore/blob/main/Swift.gitignore
+
+# Xcode personal settings
+xcuserdata/
+
+# Xcode Workspace settings
+# (Leave contents.xcworkspacedata so other developers get the workspace structure)
+*.xcuserstate
+project.xcworkspace/xcuserdata/
+project.xcworkspace/xslist
+project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+build/
+DerivedData/
+
+# CocoaPods
+Pods/
+/Podfile.lock
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.resolved
+.swiftpm/xcode/xcuserdata/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# macOS
+.DS_Store
